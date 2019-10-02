@@ -1,0 +1,75 @@
+@media (min-width: 320px) and (max-width: 374px) {
+    .comments__quote-2 {
+        width: 288px;
+
+        font-family: Inter-regular;
+        font-size: 16px;
+        line-height: 23px;
+        order: 2;
+
+        color: #FFFFFF;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .comments__quote-2 {
+        width: 343px;
+
+        font-family: Inter-regular;
+        font-size: 16px;
+        line-height: 23px;
+        order: 2;
+
+        color: #FFFFFF;
+
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .comments__quote-2 {
+        width: 382px;
+
+        font-family: Inter-regular;
+        font-size: 16px;
+        line-height: 23px;
+        order: 2;
+
+        color: #FFFFFF;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .comments__quote-2 {
+        width: 296px;
+
+        font-family: Inter-regular;
+        font-size: 14px;
+        line-height: 24px;
+
+        color: #FFFFFF;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+    .comments__quote-2 {
+        width: 382px;
+
+        font-family: Inter-regular;
+        font-size: 14px;
+        line-height: 23px;
+
+        color: #FFFFFF;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 2560px) {
+    .comments__quote-2 {
+        width: 382px;
+
+        font-family: Inter-regular;
+        font-size: 0.88rem;
+        line-height: 1.44rem;
+
+        color: #FFFFFF;
+    }
+}

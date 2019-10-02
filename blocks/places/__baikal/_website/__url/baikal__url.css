@@ -1,0 +1,51 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+    .baikal__header_website_url {
+        width: 352px;
+
+        font-family: Inter-regular;
+        font-size: 18px;
+        line-height: 30px;
+        text-decoration-line: underline;
+
+        color: #FFFFFF;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .baikal__header_website_url {
+        width: 456px;
+
+        font-family: Inter-regular;
+        font-size: 18px;
+        line-height: 30px;
+        text-decoration-line: underline;
+
+        color: #FFFFFF;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+    .baikal__header_website_url {
+        width: 484px;
+
+        font-family: Inter-regular;
+        font-size: 18px;
+        line-height: 30px;
+        text-decoration-line: underline;
+
+        color: #FFFFFF;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 2560px) {
+    .baikal__header_website_url {
+        width: 484px;
+
+        font-family: Inter-regular;
+        font-size: 1.12rem;
+        line-height: 1.87rem;
+        text-decoration-line: underline;
+
+        color: #FFFFFF;
+    }
+}

@@ -1,0 +1,100 @@
+@media (min-width: 320px) and (max-width: 374px) {
+    .lead__title {
+        width: 288px;
+        margin-top: 0;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 8px;
+
+        font-family: Inter-black;
+        font-size: 40px;
+        line-height: 44px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .lead__title {
+        width: 343px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-top: 0;
+        margin-bottom: 8px;
+
+        font-family: Inter-black;
+        font-size: 40px;
+        line-height: 44px;
+        text-align: center;
+
+        color: #FFFFFF;
+
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .lead__title {
+        width: 720px;
+        margin-top: 0;
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-bottom: 48px;
+
+        font-family: Inter-black;
+        font-size: 96px;
+        line-height: 93px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .lead__title {
+        width: 928px;
+        margin-top: 0;
+        margin-bottom: 46px;
+
+        font-family: Inter-black;
+        font-size: 96px;
+        line-height: 93px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+    .lead__title {
+        width: 782px;
+        margin-left: 103px;
+        margin-right: 100px;
+        margin-top: 0;
+        margin-bottom: 48px;
+
+        font-family: Inter-black;
+        font-size: 96px;
+        line-height: 92px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 2560px) {
+    .lead__title {
+        width: 782px;
+        margin-left: 6.4rem;
+        margin-right: 6.4rem;
+        margin-top: 0;
+        margin-bottom: 3rem;
+
+        font-family: Inter-black;
+        font-size: 6rem;
+        line-height: 5.75rem;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+}

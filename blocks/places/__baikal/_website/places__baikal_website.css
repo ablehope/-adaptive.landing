@@ -1,0 +1,56 @@
+@import url("./__url-heading/baikal__url-heading.css");
+@import url("./__url/baikal__url.css");
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .baikal__header_website {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .baikal__header_website {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .baikal__header_website {
+        display: flex;
+        flex-direction: column;
+        width: 352px;
+        margin-left: 28px;
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .baikal__header_website {
+        display: flex;
+        flex-direction: column;
+        width: 456px;
+        margin-left: 32px;
+        margin-top: 88px;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+    .baikal__header_website {
+        display: flex;
+        flex-direction: column;
+        width: 484px;
+        margin-left: 40px;
+        margin-top: 88px;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 2560px) {
+    .baikal__header_website {
+        display: flex;
+        flex-direction: column;
+        width: 484px;
+        margin-left: 2.5rem;
+        margin-top: 5.5rem;
+    }
+}

@@ -1,0 +1,82 @@
+@media (min-width: 320px) and (max-width: 374px) {
+    .karelia__footer_paragraph {
+        width: 288px;
+        margin-left: 16px;
+
+        font-family: Inter-regular;
+        font-size: 16px;
+        line-height: 27px;
+     
+        color: #FFFFFF;
+
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .karelia__footer_paragraph {
+        width: 343px;
+        margin-left: 16px;
+
+        font-family: Inter-regular;
+        font-size: 16px;
+        line-height: 27px;
+
+        color: #FFFFFF;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .karelia__footer_paragraph {
+        width: 352px;
+        margin-left: 26px;
+        margin-top: 0;
+
+        font-family: Inter-regular;
+        font-size: 16px;
+        line-height: 27px;
+
+        color: #FFFFFF;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .karelia__footer_paragraph {
+        width: 456px;
+        margin-left: 30px;
+        margin-top: 0;
+
+        font-family: Inter-regular;
+        font-size: 18px;
+        line-height: 30px;
+
+        color: #FFFFFF;
+    } 
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+    .karelia__footer_paragraph {
+        width: 484px;
+        margin-left: 38px;
+        margin-top: 0;
+        
+        font-family: Inter-regular;
+        font-size: 18px;
+        line-height: 30px;
+
+        color: #FFFFFF;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 2560px) {
+    .karelia__footer_paragraph {
+        width: 484px;
+        margin-left: 2.5rem;
+        margin-top: 0;
+
+        font-family: Inter-regular;
+        font-size: 1.12rem;
+        line-height: 1.87rem;
+
+        color: #FFFFFF;
+    }
+}

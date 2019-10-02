@@ -1,0 +1,58 @@
+.video__item-1:hover {
+    opacity: .2;;
+}
+
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .video__item-1 {
+        width: 288px;
+        background-image: url(../kamchatka3.jpg);
+        background-size: contain;
+        margin-bottom: 4px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .video__item-1 {
+        width: 343px;
+        background-image: url(../kamchatka3.jpg);
+        background-size: contain;
+        margin-bottom: 4px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .video__item-1 {
+        width: 352px;
+        background-image: url(../kamchatka3.jpg);
+        background-size: contain;
+        margin-right: 8px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .video__item-1 {
+        width: 456px;
+        background-image: url(../kamchatka3.jpg);
+        background-size: contain;
+        margin-right: 8px;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+    .video__item-1 {
+        width: 583px;
+        background-image: url(../kamchatka3.jpg);
+        background-size: contain;
+        margin-right: 9px;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 2560px) {
+    .video__item-1 {
+        width: 583px;
+        background-image: url(../kamchatka3.jpg);
+        background-size: contain;
+        margin-right: 0.56rem;
+    }
+}

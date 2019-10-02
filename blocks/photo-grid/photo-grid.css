@@ -1,0 +1,100 @@
+@import url("./__train/photo-grid__train.css");
+@import url("./__atharva-tulsi/photo-grid__atharva-tulsi.css");
+@import url("./__tuman/photo-grid__tuman.css");
+@import url("./__sochi/photo-grid__sochi.css");
+@import url("./__arisa-chattasa/photo-grid__arisa-chattasa.css");
+@import url("./__baikal/photo-grid__baikal.css");
+@import url("./__elbrus/photo-grid__elbrus.css");
+@import url("./__stanislav-kondratiev/photo-grid__stanislav-kondratiev.css");
+@import url("./__kamchatka/photo-grid__kamchatka.css");
+@import url("./__kamchatka2/photo-grid__kamchatka2.css");
+@import url("./__baikal2/photo-grid__baikal2.css");
+@import url("./__ergaki/photo-grid__ergaki.css");
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .photo-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(12, 1fr);
+        grid-column-gap: 8px;
+        width: 288px;
+        height: 2392px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 64px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .photo-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(12, 1fr);
+        grid-column-gap: 16px;
+        width: 343px;
+        height: 2959px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 64px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .photo-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        grid-column-gap: 16px;
+        grid-row-gap: 16px;
+        width: 720px;
+        height: 1485px;
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-bottom: 102px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .photo-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 16px;
+        grid-row-gap: 16px;
+        width: 928px;
+        height: 842px;
+        margin-left: 48px;
+        margin-right: 48px;
+        margin-bottom: 102px;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+    .photo-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-column-gap: 16px;
+        grid-row-gap: 16px;
+        width: 1184px;
+        height: 596px;
+        margin-left: 48px;
+        margin-right: 48px;
+        margin-bottom: 92px;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 2560px) {
+    .photo-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-column-gap: 1rem;
+        grid-row-gap: 1rem;
+        width: 1184px;
+        height: 596px;
+        margin-left: 8rem;
+        margin-right: 8rem;
+        margin-bottom: 5.75rem;
+    }
+}

@@ -1,0 +1,56 @@
+@import url("./__url/curonian-spit__url.css");
+@import url("./__url-heading/curonian-spit__url-heading.css");
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .curonian-spit__header_website {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .curonian-spit__header_website {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .curonian-spit__header_website {
+        display: flex;
+        flex-direction: column;
+        width: 352px;
+        margin-left: 28px;
+        margin-top: 39px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .curonian-spit__header_website {
+        display: flex;
+        flex-direction: column;
+        width: 456px;
+        margin-left: 32px;
+        margin-top: 85px;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+    .curonian-spit__header_website {
+        display: flex;
+        flex-direction: column;
+        width: 484px;
+        margin-left: 43px;
+        margin-top: 87px;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 2560px) {
+    .curonian-spit__header_website {
+        display: flex;
+        flex-direction: column;
+        width: 484px;
+        margin-top: 5.44rem;
+        margin-left: 2.69rem;
+    }
+}

@@ -1,0 +1,140 @@
+@import url("../blocks/header/header.css");
+@import url("../blocks/lead/lead.css");
+@import url("../blocks/intro/intro.css");
+@import url("../blocks/photo-grid/photo-grid.css");
+@import url("../blocks/places/places.css");
+@import url("../blocks/video/video.css");
+@import url("../blocks/additional/additional.css");
+@import url("../blocks/comments/comments.css");
+@import url("../blocks/cover/cover.css");
+@import url("../blocks/emblem/emblem.css");
+@import url("../blocks/barentsburg/barentsburg.css");
+@import url("../blocks/footer/footer.css");
+
+@font-face {
+    font-family: "Inter-regular";
+    src: url("../inter/Inter-Regular.woff") format("woff"),
+        url("../inter/Inter-Regular.woff2") format("woff2"),
+        url("../inter/Inter-Regular.ttf") format("ttf"),
+        url("../inter/Inter-Regular.otf") format("otf");
+}
+
+@font-face {
+    font-family: "Inter-black";
+    src: url("../inter/Inter-Black.woff") format("woff"),
+    url("../inter/Inter-Black.woff2") format("woff2"),
+    url("../inter/Inter-Black.ttf") format("ttf"),
+    url("../inter/Inter-Black.otf") format("otf");
+}
+
+@font-face {
+    font-family: "Inter-bold";
+    src: url("../inter/Inter-Bold.woff") format("woff"),
+    url("../inter/Inter-Bold.woff2") format("woff2"),
+    url("../inter/Inter-Bold.ttf") format("ttf"),
+    url("../inter/Inter-Bold.otf") format("otf");
+}
+
+/*div {
+    border: 1px solid red;
+}
+
+section {
+    border: 1px solid red;
+}*/
+
+@media (min-width: 320px) and (max-width: 374px) {
+    body {
+        width: 320px;
+        background: #2A2C2F;
+        margin: 0 auto;
+        font-family: "Inter-regular", "Inter-black", "Inter-bold", Arial, sans-serif;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        -moz-text-size-adjust: 100%;
+        text-rendering: optimizeLegibility;
+        /*border: 1px solid red;*/
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    body {
+        width: 375px;
+        background: #2A2C2F;
+        margin: 0 auto;
+        font-family: "Inter-regular", "Inter-black", "Inter-bold", Arial, sans-serif;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        -moz-text-size-adjust: 100%;
+        text-rendering: optimizeLegibility;
+        /*border: 1px solid red;*/
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    body {
+        width: 768px;
+        background: #2A2C2F;
+        margin: 0 auto;
+        font-family: "Inter-regular", "Inter-black", "Inter-bold", Arial, sans-serif;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        -moz-text-size-adjust: 100%;
+        text-rendering: optimizeLegibility;
+        /*border: 1px solid red;*/
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    body {
+        width: 1024px;
+        background: #2A2C2F;
+        margin: 0 auto;
+        font-family: "Inter-regular", "Inter-black", "Inter-bold", Arial, sans-serif;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        -moz-text-size-adjust: 100%;
+        text-rendering: optimizeLegibility;
+        /*border: 1px solid red;*/
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+    body {
+        width: 1280px;
+        background: #2A2C2F;
+        margin: 0 auto;
+        font-family: "Inter-regular", "Inter-black", "Inter-bold", Arial, sans-serif;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        -moz-text-size-adjust: 100%;
+        text-rendering: optimizeLegibility;
+        /*border: 1px solid red;*/
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 2560px) {
+    body {
+        width: 1440px;
+        background: #2A2C2F;
+        margin: 0 auto;
+        font-family: "Inter-regular", "Inter-black", "Inter-bold", Arial, sans-serif;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        -moz-text-size-adjust: 100%;
+        text-rendering: optimizeLegibility;
+        /*border: 1px solid red;*/
+    }
+}

@@ -1,0 +1,58 @@
+@import url("./__paragraph/places__karelia_paragraph.css");
+@import url("./_image/places__karelia_image.css");
+@import url("./_title/places__karelia_title.css");
+@import url("./_website/places__karelia_website.css");
+
+.karelia__header {
+    display: flex;
+    }
+    
+.karelia__footer {
+    display: flex;
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .places__karelia {
+        width: 320px;
+    }
+
+    .karelia__footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .places__karelia {
+        width: 375px;
+    }
+
+    .karelia__footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .places__karelia {
+        width: 720px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .places__karelia {
+        width: 928px;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+    .places__karelia {
+        width: 984px;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 2560px) {
+    .places__karelia {
+        width: 984px;
+    }
+}

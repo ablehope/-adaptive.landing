@@ -1,0 +1,56 @@
+@import url("../__curonian-spit/_image/places__curonian-spit_image.css");
+@import url("../__curonian-spit/_paragraph-1/places__curonian-spit_paragraph-1.css");
+@import url("../__curonian-spit/_paragraph-2/places__curonian-spit_paragraph-2.css");
+@import url("../__curonian-spit/_title/places__curonian-spit_title.css");
+@import url("../__curonian-spit/_website/places__curonian-spit_website.css");
+
+.curonian-spit__header {
+display: flex;
+}
+
+.curonian-spit__footer {
+display: flex;
+flex-wrap: wrap;
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .places__curonian-spit {
+        width: 320px;
+        margin-bottom: 48px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .places__curonian-spit {
+        width: 375px;
+        margin-bottom: 48px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .places__curonian-spit {
+        width: 720px;
+        margin-bottom: 81px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .places__curonian-spit {
+        width: 928px;
+        margin-bottom: 72px;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+    .places__curonian-spit {
+        width: 984px;
+        margin-bottom: 72px;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 2560px) {
+    .places__curonian-spit {
+        width: 984px;
+        margin-bottom: 4.5rem;
+    }
+}

@@ -1,0 +1,35 @@
+@media (min-width: 320px) and (max-width: 374px) {
+    .altai__footer_image {
+        width: 320px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .altai__footer_image {
+        width: 375px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .altai__footer_image {
+        width: 340px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .altai__footer_image {
+        width: 440px;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+    .altai__footer_image {
+        width: 460px;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 2560px) {
+    .altai__footer_image {
+        width: 460px;
+    }
+}

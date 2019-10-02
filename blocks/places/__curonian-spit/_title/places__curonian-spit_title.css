@@ -1,0 +1,83 @@
+@media (min-width: 320px) and (max-width: 374px) {
+    .curonian-spit__header_title {
+        width: 288px;
+        margin-top: 0;
+        margin-left: 16px;
+        margin-bottom: 32px;
+
+        font-family: Inter-black;
+        font-size: 32px;
+        line-height: 35px;
+
+        color: #FFFFFF;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .curonian-spit__header_title {
+        width: 343px;
+        margin-top: 0;
+        margin-left: 16px;
+        margin-bottom: 32px;
+
+        font-family: Inter-black;
+        font-size: 32px;
+        line-height: 35px;
+    
+
+        color: #FFFFFF;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .curonian-spit__header_title {
+        width: 340px;
+        margin-top: 0;
+
+        font-family: Inter-black;
+        font-size: 42px;
+        line-height: 46px;
+
+        color: #FFFFFF;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .curonian-spit__header_title {
+        width: 440px;
+        margin-top: 0;
+
+        font-family: Inter-black;
+        font-size: 72px;
+        line-height: 65px;
+
+        color: #FFFFFF;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+    .curonian-spit__header_title {
+        width: 457px;
+        margin-top: 0;
+
+        font-family: Inter-black;
+        font-size: 72px;
+        line-height: 65px;
+
+        color: #FFFFFF;
+
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 2560px) {
+    .curonian-spit__header_title {
+        width: 457px;
+        margin-top: 0;
+
+        font-family: Inter-black;
+        font-size: 4.5rem;
+        line-height: 4.06rem;
+
+        color: #FFFFFF;
+    }
+}

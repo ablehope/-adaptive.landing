@@ -1,0 +1,66 @@
+@import url("./__copyright/footer__copyright.css");
+@import url("./__link-calendar/footer__link-calendar.css");
+@import url("./__link-maps/footer__link-maps.css");
+@import url("./__link-table/footer__link-table.css");
+@import url("./__link-travel/footer__link-travel.css");
+@import url("./__link-weather/footer__link-weather.css");
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        width: 183px;
+        margin-left: 16px;
+        margin-bottom: 24px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        width: 282px;
+        margin-left: 16px;
+        margin-bottom: 24px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .footer {
+        display: flex;
+        width: 722px;
+        margin-left: 23px;
+        margin-right: 23px;
+        margin-bottom: 24px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .footer {
+        display: flex;
+        width: 929px;
+        margin-left: 47px;
+        margin-right: 48px;
+        margin-bottom: 48px;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+    .footer {
+        display: flex;
+        width: 1184px;
+        margin-left: 48px;
+        margin-right: 48px;
+        margin-bottom: 48px;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 2560px) {
+    .footer {
+        display: flex;
+        width: 1184px;
+        margin-left: 8rem;
+        margin-right: 8rem;
+        margin-bottom: 3rem;
+    }
+}

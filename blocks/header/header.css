@@ -1,0 +1,79 @@
+@import url("./__lang/header__lang.css");
+@import url("./__logo/header__logo.css");
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        font-family: Inter;
+        width: 288px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-top: 16px;
+        margin-bottom: 48px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        font-family: Inter;
+        width: 343px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-top: 16px;
+        margin-bottom: 48px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        font-family: Inter;
+        width: 720px;
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-top: 30px;
+        margin-bottom: 48px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        font-family: Inter;
+        width: 928px;
+        margin-left: 48px;
+        margin-right: 48px;
+        margin-top: 30px;
+        margin-bottom: 48px;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        font-family: Inter;
+        width: 1184px;
+        margin-left: 48px;
+        margin-right: 48px;
+        margin-top: 30px;
+        margin-bottom: 48px;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 2560px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        font-family: Inter;
+        width: 1184px;
+        margin-left: 8rem;
+        margin-top: 1.9rem;
+        margin-bottom: 3rem;
+    }
+}

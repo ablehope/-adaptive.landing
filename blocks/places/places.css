@@ -1,0 +1,55 @@
+@import url("../places/__curonian-spit/places__curonian-spit.css");
+@import url("../places/__kola/places__kola.css");
+@import url("../places/__altai/places__altai.css");
+@import url("../places/__baikal/places__baikal.css");
+@import url("../places/__karelia/places__karelia.css");
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .places {
+        width: 320px;
+        margin-bottom: 64px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .places {
+        width: 375px;
+        margin-bottom: 64px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .places {
+        width: 720px;
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-bottom: 102px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .places {
+        width: 928px;
+        margin-left: 48px;
+        margin-right: 48px;
+        margin-bottom: 102px;
+    } 
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+    .places {
+        width: 984px;
+        margin-left: 148px;
+        margin-right: 148px;
+        margin-bottom: 102px;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 2560px) {
+    .places {
+        width: 984px;
+        margin-left: 14.25rem;
+        margin-right: 14.25rem;
+        margin-bottom: 6.4rem;
+    }
+}

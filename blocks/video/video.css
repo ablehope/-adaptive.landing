@@ -1,0 +1,63 @@
+@import url("./__container/video__container.css");
+@import url("./__content-subtitle/video__content-subtitle.css");
+@import url("./__content-title/video__content-title.css");
+@import url("./__duration/video__duration.css");
+@import url("./__icon/_play/video__icon_play.css");
+@import url("./__item-1/video__item-1.css");
+@import url("./__item-2/video__item-2.css");
+@import url("./__subtitle/video__subtitle.css");
+@import url("./__title/video__title.css");
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .video {
+        width: 288px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 64px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .video {
+        width: 343px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 64px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .video {
+        width: 720px;
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-bottom: 102px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .video {
+        width: 928px;
+        margin-left: 48px;
+        margin-right: 48px;
+        margin-bottom: 102px;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+    .video {
+        width: 1184px;
+        margin-left: 48px;
+        margin-right: 48px;
+        margin-bottom: 102px;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 2560px) {
+    .video {
+        width: 1184px;
+        margin-left: 8rem;
+        margin-right: 8rem;
+        margin-bottom: 6.38rem;
+    }
+}

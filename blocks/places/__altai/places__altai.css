@@ -1,0 +1,56 @@
+@import url("./_image/places__altai_image.css");
+@import url("./_paragraph-1/places__altai_paragraph-1.css");
+@import url("./_paragraph-2/places__altai_paragraph-2.css");
+@import url("./_title/places__altai_title.css");
+@import url("./_website/places__altai_website.css");
+
+.altai__header {
+    display: flex;
+}
+
+.altai__footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .places__altai {
+        width: 320px;
+        margin-bottom: 48px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .places__altai {
+        width: 375px;
+        margin-bottom: 48px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .places__altai {
+        width: 720px;
+        margin-bottom: 81px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .places__altai {
+        width: 928px;
+        margin-bottom: 72px;
+    } 
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+    .places__altai {
+        width: 984px;
+        margin-bottom: 72px;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 2560px) {
+    .places__altai {
+        width: 984px;
+        margin-bottom: 4.5rem;
+    }
+}
